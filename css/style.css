@@ -1,0 +1,360 @@
+*{
+    font-family: "poppins", sans-serif;
+}
+
+.header{
+    background-color: #EEF1FF;
+}
+
+.header .navbar-brand{
+    font-size:  26px;
+}
+
+.header .navbar-nav a{
+    color: black;
+    font-size: 14px;
+    margin-inline: 10px;
+}
+
+.header .navbar-nav a:hover{
+    color: #AAC4FF;
+}
+
+.header .row{
+    min-height: 85vh;
+}
+
+.header .row .col:nth-child(1) h1{
+    font-size: 70px;
+    color: #120f30;
+    --animate-delay: 3.4s;
+}
+
+.header .row .col:nth-child(1) > p{
+    font-size: 14px;
+    padding-right: 70px;
+    --animate-delay: 3.8s;
+}
+
+.header .row .col:nth-child(1) button{
+    --animate-delay: 4.2s;
+}
+
+.header .row .col:nth-child(1) div{
+    --animate-delay: 4.6s;
+}
+
+.header .row .col:nth-child(1) div p{
+    font-size: 14px;
+}
+
+.header .row .col:nth-child(1) div i{
+    color: #AAC4FF;
+}
+
+.header .row .col:nth-child(2) img:nth-child(1){
+   width: 500px; 
+   z-index: 2;
+}
+
+.header .row .col:nth-child(2) img:nth-child(2){
+    width: 550px;
+    z-index: 1;
+}
+
+.header .row .col:nth-child(2) img:nth-child(3){
+    width: 120px;
+    z-index: 3;
+    top: 50%;
+    right: -50px;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+}
+
+.header .row .col:nth-child(2) img:nth-child(4){
+    width: 120px;
+    z-index: 4;
+    top: 50%;
+    left: -60px;
+}
+
+.skills{
+    min-height: 60vh;
+}
+
+.skills .container > h1{
+    color: #120f30;
+}
+
+.skills .row .col p{
+    font-size: 12px;
+}
+
+.skills .row .col i{
+    color: #312e6a;
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.about{
+    background-color: #EEF1FF;
+}
+
+.about .row{
+    min-height: 90vh;
+}
+
+.about .row .col img:nth-child(1){
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: 2;
+    width: 400px;
+}
+
+.about .row .col:nth-child(2) h1{
+    color: #120f30;
+}
+
+.about .row .col img:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: 1;
+    width: 550px;
+}
+
+.about .row .col .desc{
+    text-align: justify;
+}
+
+.about .row .col .brands-icon i{
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.about .row .col .brands-icon i:nth-child(1){
+    color: #e9562f;
+}
+
+.about .row .col .brands-icon i:nth-child(2){
+    color: #254bdd;
+}
+
+.about .row .col .brands-icon i:nth-child(3){
+    color: #efd81d;
+}
+
+.about .row .col .brands-icon i:nth-child(4){
+    color: #00c6f7;
+}
+
+.project {
+    padding-top: 100px;
+    padding-top: 100px;
+    padding-inline: 10px;
+}
+
+.project h1{
+    color: #120f30;
+}
+
+.project .row .col img{
+    width: 90%;
+    transition: width 1s;
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -ms-transition: width 1s;
+    -o-transition: width 1s;
+}
+
+.project .row .col img:hover{
+    width: 100%;
+    border: solid 5px #AAC4FF;
+}
+
+.service{
+    padding-bottom: 100px;
+}
+
+.service h1{
+    color: #120f30;
+}
+
+.service .row .col p{
+    text-align: justify;
+}
+
+.footer{
+    min-height: 50vh;
+    background-color: #EEF1FF;
+}
+
+.footer .row .col a{
+    color: black;
+}
+
+.footer .row .col a:hover{
+    color: #AAC4FF;
+}
+
+.footer .row .col .follow a:nth-child(1):hover{
+    color : #3B71CA;
+}
+
+.footer .row .col .follow a:nth-child(3):hover{
+    color : #DC4C64;
+}
+
+.footer .row .col .follow a:nth-child(5):hover{
+    color :#9FA6B2;
+}
+
+.copyright{
+    background-color: #EEF1FF;
+}
+
+.container-loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.container-loader .spinner-border{
+    width: 50px;
+    height: 50px;
+}
+
+.container-loader.loader-active{
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    .header .row .col:nth-child(1) h1{
+        font-size: 50px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(1){
+        width: 800px;
+    }
+
+    .skills .row .col h5{
+        font-size: 16px;
+    }
+
+    .about .row .col img:nth-child(1){
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 992px){
+
+    .about .row{
+        min-height: 100vh;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about .row .col:nth-child(1){
+        margin-bottom: 50px;
+    }
+
+    .about .row .col:nth-child(2) .desc{
+        text-align: center;
+    }
+
+    .about .row .col img:nth-child(1){
+        position: relative;
+        width: 300px;
+    }
+
+    .about .row .col .brands-icon i{
+        margin-right: 0;
+        margin-inline: 10px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header .row .col:nth-child(2) img:nth-child(1){
+        width: 300px;
+    }
+
+    .about .row .col img:nth-child(1){
+        width: 250px;
+    }
+
+    .about .row .col .desc{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:475px){
+    .header .row .col:nth-child(1) h1{
+        font-size: 40px;
+    }
+
+    .header .row .col:nth-child(1) > p{
+        font-size: 12px;
+    }
+
+    .header .row .col:nth-child(1) div p {
+        font-size: 12px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(1){
+        width: 200px;
+    }
+
+    .skills .row .col p{
+        padding: 0 50px 0 50px;
+    }
+
+    .about .row .col:nth-child(1){
+        margin-bottom: 20px;
+    }
+
+    .about .row .col img:nth-child(1){
+        width: 200px;
+    }
+
+    .about .row .col .brands-icon i{
+        margin-inline: 5px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .header .row .col:nth-child(1) h1{
+        font-size: 30px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(1){
+        width: 150px;
+    }
+
+    .about .row .col img:nth-child(1){
+        width: 180px;
+    }
+
+    .about .row .col .brands-icon i{
+        font-size: 40px;
+    }
+}
